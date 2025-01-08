@@ -4,7 +4,9 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from "./routes";
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, {
+  basename: '/pvrcartify',  // Add this line to handle GitHub Pages subdirectory
+});
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

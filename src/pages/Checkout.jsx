@@ -1,4 +1,7 @@
-import { useOutletContext, useEffect, useState } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
+import { useState, useEffect } from "react";  // Correctly import useEffect from react
+
+
 import Card from "../components/Card";
 import ProductImage from "../components/ProductImage";
 import ProductDesc from "../components/ProductDesc";
