@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+h1 {
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.nav-link {
+  color: rgb(194, 61, 61);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 1rem;
+}
+.nav-link:hover {
+  background-color: hsl(0, 0%, 30%);
+  border-radius: 12px;
+}
+.active {
+  color: rgb(30, 117, 112);
+  font-weight: bold;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.front-img {
+  background-image: url("./assets/tshirt1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  width: 80vh;
+  height: 300px;
+}
+.front-link {
+  margin-top: 2rem;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  border-radius: 9px;
+  justify-self: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  width: 220px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.detail-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 6rem;
+}
+.detail-container > p {
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+}
+.button:hover {
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+
+.btn-checkout {
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+}
+.btn-checkout:hover {
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
