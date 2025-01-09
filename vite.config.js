@@ -6,3 +6,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/pvrcartify/', // Make sure this matches your repository name
 })
+ 
